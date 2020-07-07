@@ -39,9 +39,7 @@ if (todoid === toto.id) {
 if (matchedtodo) {
 	res.json(matchedtodo);
 }
-else{
-	res.status(404).send();
-}
+
 
 
 
